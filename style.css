@@ -1,0 +1,79 @@
+
+.film, .actor  {
+	text-align: center;
+	font-size: 50px;
+	text-decoration: none;
+	padding: 10%;
+	margin-top: 10%;
+	background-repeat: no-repeat;
+    background-position: center; 
+	border-radius: 15px;
+	border: solid #141317 5px;
+	text-align: center;
+}
+
+.film{
+	background-image: url("kino.jpg");
+}
+
+
+.actor{
+	background-image: url("redcarpet.jpg");
+}
+
+.row a{
+	color: #333469;
+	text-decoration: none;
+	font-weight: bold;
+}
+.film a{
+	padding: 50px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	text-shadow: 0 0 5px black;
+}
+.actor a{
+	padding: 50px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	padding: 50px;
+}
+
+.actor:hover{
+	opacity: 0.8;
+}
+
+.film:hover{
+	opacity: 0.8;
+}
+
+.index{
+	background-color: #141317;
+}
+
+.bg-1 {
+  background-image: linear-gradient(#E9CD70, #B28F22);
+}
+.bg-1 th{
+	background-color: #E9CD70;
+}
+
+.bg-2 {
+  background-color:  #B28F22;
+}
+
+.bg-3 {
+  background-image: linear-gradient(#B28F22, #E9CD70);
+}
+.bg-4 {
+  background-color: #E9CD70
+}
+
+.bg-3 th{
+	background-color: #B28F22;
+}
+i {
+	font-weight: bold;
+}
